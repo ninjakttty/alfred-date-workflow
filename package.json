@@ -1,0 +1,38 @@
+{
+  "name": "alfred-date",
+  "version": "0.0.0",
+  "description": "A Show dates in various formats",
+  "license": "MIT",
+  "repository": "ninjakttty/alfred-date",
+  "author": {
+    "name": "Yuri A. Parsons",
+    "email": "yuri@ninjakitty.net",
+    "url": "github.com/ninjakttty/alfred-date-workflow"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
